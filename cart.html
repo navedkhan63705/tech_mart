@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - InnovateTech</title>
+    <link rel="stylesheet" href="cart.css">
+    <script defer src="cart.js"></script>
+    <script defer src="products.js.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items">
+            <h2>Cart Items</h2>
+            <ul id="cart-list"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+        </section>
+        
+        <section id="address-form">
+            <h2>Address Details</h2>
+            <form>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode" required>
+                <label for="district">District:</label>
+                <input type="text" id="district" name="district" required>
+                <label for="street">Street No/Flat No:</label>
+                <input type="text" id="street" name="street" required>
+            </form>
+        </section>
+
+        <section id="payment-form">
+            <h2>Payment Details</h2>
+            <form>
+                <div>
+                    <input type="radio" id="credit-debit-card" name="payment-method" value="credit-debit-card" required>
+                    <label for="credit-debit-card">Credit/Debit Card</label>
+                </div>
+                <div id="credit-debit-card-details" class="payment-details">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number">
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv">
+                </div>
+                <div>
+                    <input type="radio" id="upi" name="payment-method" value="upi" required>
+                    <label for="upi">UPI</label>
+                </div>
+                <div id="upi-details" class="payment-details">
+                    <label for="upi-id">UPI ID:</label>
+                    <input type="text" id="upi-id" name="upi-id">
+                </div>
+                <div>
+                    <input type="radio" id="home-delivery" name="payment-method" value="home-delivery" required>
+                    <label for="home-delivery">Cash on Delivery</label>
+                </div>
+            </form>
+        </section>
+        
+        <button id="checkout-button">Checkout</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 InnovateTech</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - InnovateTech</title>
+    <link rel="stylesheet" href="products.css">
+    <script defer src="products.js"></script>
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="filters">
+            <h2>Filters</h2>
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="name-asc">Name: A to Z</option>
+                <option value="name-desc">Name: Z to A</option>
+            </select>
+            <label for="brand">Filter by Brand:</label>
+            <select id="brand">
+                <option value="all">All</option>
+                <option value="Dell">Dell</option>
+                <option value="Hp">Hp</option>
+                <option value="boAt">boAt</option>
+            </select>
+        </section>
+
+        <section class="brand-section" data-brand="Dell">
+            <h3><img src="https://w0.peakpx.com/wallpaper/836/470/HD-wallpaper-dell-black-silk-background-dell-logo-emblem.jpg" alt="Brand 1 Logo"> Dell</h3>
+            <div class="product-list">
+                <div class="product-item" data-price="899.99" data-name="Dell Wireless Keyboard">
+                    <div class="img-container">
+                        <a href="product1.html"><img src="https://i.dell.com/is/image/DellContent/content/dam/images/products/electronics-and-accessories/dell/keyboards/kb500/kb500-kbm-02-bk.psd?fmt=png-alpha&pscan=auto&scl=1&hei=476&wid=1009&qlt=100,1&resMode=sharp2&size=1009,476&chrss=full" alt="Dell Wireless Keyboard"></a>
+                    </div>
+                    <h4><a href="product1.html">Dell Wireless Keyboard</a></h4>
+                    <p>Price: 899.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="42799.99" data-name="Dell Laserjet printer">
+                    <div class="img-container">
+                        <a href="product2.html"><img src="https://i.dell.com/is/image/DellContent/content/dam/images/products/electronics-and-accessories/dell/printers/h815dw/h815dw-lpr-1525lf-open-w-paper.psd?qlt=95&fit=constrain,1&hei=600&wid=600&fmt=jpg" alt="Dell Laserjet Printer"></a>
+                    </div>
+                    <h4><a href="product2.html">Dell Laserjet Printer</a></h4>
+                    <p>Price: 42799.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="78899.99" data-name="Dell Inspiron 15 3000 Business and Student Laptop (2021 Latest Model), 15.6 HD Display, Intel N4020 Dual-Core Processor, 16GB RAM, 1TB SSD, Webcam, HDMI, Bluetooth, Wi-Fi, Black, Windows 10">
+                    <div class="img-container">
+                        <a href="product3.html"><img src="https://m.media-amazon.com/images/I/71nP6lTogjL._SX679_.jpg" alt="Brand 1 Product 3"></a>
+                    </div>
+                    <h4><a href="product3.html">Dell Inspiron 15 3000 Business and Student Laptop (2021 Latest Model), 15.6" HD Display, Intel N4020 Dual-Core Processor, 16GB RAM, 1TB SSD, Webcam, HDMI, Bluetooth, Wi-Fi, Black, Windows 10</a></h4>
+                    <p>Price: 78899.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-section" data-brand="Hp">
+            <h3><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp6JV_bcYV7fCtoY3k5hl0qhhgSmMbaTkmDzlkjybKr4incxghJh66HJFErYRxUOSKZFA&usqp=CAU" alt="Brand 2 Logo">Hp</h3>
+            <div class="product-list">
+                <div class="product-item" data-price="849.99" data-name="hp wireless mouse">
+                    <div class="img-container">
+                        <a href="product4.html"><img src="https://m.media-amazon.com/images/I/31iDnpYmIBL._AC_UF1000,1000_QL80_.jpg" alt="Hp wireless mouse"></a>
+                    </div>
+                    <h4><a href="product4.html">Hp wireless mouse</a></h4>
+                    <p>Price: 849.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="2799.99" data-name="Hp Black Gaming Headphones">
+                    <div class="img-container">
+                        <a href="product5.html"><img src="https://www.tpstech.in/cdn/shop/products/HP_B4B09PA_Headphones_with_Mic_From_TPSTech_01.jpg?v=1627388288" alt="Hp Black Gaming Headphones"></a>
+                    </div>
+                    <h4><a href="product5.html">Hp Black Gaming Headphones</a></h4>
+                    <p>Price: 2799.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="144549.99" data-name="HP Spectre 40.6 cm x360 2-in-1 Laptop 16-f2002TU - Black">
+                    <div class="img-container">
+                        <a href="product6.html"><img src="https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c07833343_evo_i7_1.png" alt="HP Spectre 40.6 cm x360 2-in-1 Laptop 16-f2002TU - Black"></a>
+                    </div>
+                    <h4><a href="product6.html">HP Spectre 40.6 cm x360 2-in-1 Laptop 16-f2002TU - Black</a></h4>
+                    <p>Price: 144549.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-section" data-brand="boAt">
+            <h3><img src="https://swarajya.gumlet.io/swarajya/2021-01/7a6e91f6-5862-4ac5-bb08-eb5bf2a3e20c/boAt_logo.jpg?w=640&q=75&auto=format,compress&format=webp" alt="Boat Logo"> Boat</h3>
+            <div class="product-list">
+                <div class="product-item" data-price="1399.99" data-name="boAt Airdopes Supreme">
+                    <div class="img-container">
+                        <a href="product7.html"><img src="https://www.boat-lifestyle.com/cdn/shop/files/Artboard12_1300x.png?v=1711002298" alt="Boat Airdopes Supreme"></a>
+                    </div>
+                    <h4><a href="product7.html">boAt Airdopes Supreme</a></h4>
+                    <p>Price: 1399.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="1099.99" data-name="boAt lunar call">
+                    <div class="img-container">
+                        <a href="product8.html"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/LunarCall_1_700x.png?v=1701763426" alt="boAt lunar call"></a>
+                    </div>
+                    <h4><a href="product8.html">boAt lunar call</a></h4>
+                    <p>Price: $1099.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+                <div class="product-item" data-price="1699.99" data-name="boAt stone 580 speakers">
+                    <div class="img-container">
+                        <a href="product9.html"><img src="https://m.media-amazon.com/images/I/81X2lhPg4ZL._AC_UF1000,1000_QL80_.jpg" alt="Brand 3 Product 3"></a>
+                    </div>
+                    <h4><a href="product9.html">boAt stone 580 speakers</a></h4>
+                    <p>Price: 1699.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="review-btn">Add Review</button>
+                    <div class="review-section"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 InnovateTech</p>
+    </footer>
+</body>
+</html>

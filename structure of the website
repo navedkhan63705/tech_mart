@@ -1,0 +1,45 @@
+innovate-tech/
+├── index.html
+├── products.html
+├── about.html
+├── contact.html
+├── cart.html
+├── product1.html
+├── product2.html
+├── product3.html
+├── product4.html
+├── product5.html
+├── product6.html
+├── product7.html
+├── product8.html
+├── product9.html
+├── css/
+│   ├── styles.css
+│   ├── contact.css
+│   ├── products.css
+├── images/
+│   ├── dell-logo.png
+│   ├── hp-logo.png
+│   ├── boat-logo.png
+│   ├── product1.jpg
+│   ├── product2.jpg
+│   ├── product3.jpg
+│   ├── product4.jpg
+│   ├── product5.jpg
+│   ├── product6.jpg
+│   ├── product7.jpg
+│   ├── product8.jpg
+│   ├── product9.jpg
+├── js/
+│   ├── products.js
+│   ├── cart.js
+├── videos/
+│   ├── product1-video.mp4
+│   ├── product2-video.mp4
+│   ├── product3-video.mp4
+│   ├── product4-video.mp4
+│   ├── product5-video.mp4
+│   ├── product6-video.mp4
+│   ├── product7-video.mp4
+│   ├── product8-video.mp4
+│   ├── product9-video.mp4

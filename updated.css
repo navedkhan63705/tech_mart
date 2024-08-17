@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e0f7fa;
+}
+
+.hero-section h2 {
+    margin: 0 0 20px;
+}
+
+.hero-section p {
+    margin: 0 0 20px;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-section .btn:hover {
+    background-color: #004d40;
+}
+
+.featured-products {
+    padding: 20px 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    margin: 16px 0 8px;
+}
+
+.product-item p {
+    margin: 0 0 16px;
+}
+
+.about-us {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9fbe7;
+}
+
+.about-us h2 {
+    margin: 0 0 20px;
+}
+
+.about-us p {
+    margin: 0 0 20px;
+}
+
+.about-us .btn {
+    padding: 10px 20px;
+    background-color: #689f38;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-us .btn:hover {
+    background-color: #33691e;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ffecb3;
+}
+
+.newsletter h2 {
+    margin: 0 0 20px;
+}
+
+.newsletter p {
+    margin: 0 0 20px;
+}
+
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #e65100;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
